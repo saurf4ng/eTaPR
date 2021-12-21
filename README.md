@@ -169,6 +169,7 @@ To visualize the predictions and anomalies, you can utilize the function, 'draw_
 def draw_graph(anomalies: list, predictions: list, graph_dst: str) -> None:
 ```
 Its result is shown as belows:
+	
 ![ex_screenshot](./brief_result.png)
 
 
