@@ -9,7 +9,7 @@ For this reason, we propose a novel metric, TaPR.
 * TaPR git: https://github.com/saurf4ng/TaPR
 
 However, our TaPR has the problem of overrating inaccurate evaluation cases.
-Remark that existing metrics(ref1, ref2, ref3) also suffer from this problem.
+Remark that existing metrics([point-adjust](https://dl.acm.org/doi/abs/10.1145/3178876.3185996) and [TSAD](https://arxiv.org/abs/1803.03639)) also suffer from this problem.
 For this reason, the existing metrics, including TaPR overrate a detection method.
 So, I improve TaPR and propose 'enhanced Time-series aware Precision and Recall (eTaPR).'
 You can find the details of problem and eTaPR in the paper to be announced at ACM SAC '22. (I'll give you a link to my paper.)
