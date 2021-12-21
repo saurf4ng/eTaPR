@@ -49,9 +49,9 @@ You can use the 'Range' class by importing a package and make a list of Ranges a
 ```
 from eTaPR_pkg.DataManage import Range
 
-anomalies = [ Range.Range(1754, 2800, '1'), 
-			  Range.Range(3080, 3690, '2'), 
-			  Range.Range(5299, 5400, '3')  ]
+anomalies = [   Range.Range(1754, 2800, '1'), 
+		Range.Range(3080, 3690, '2'), 
+		Range.Range(5299, 5400, '3')  ]
 ```
 
 
@@ -169,7 +169,7 @@ To visualize the predictions and anomalies, you can utilize the function, 'draw_
 def draw_graph(anomalies: list, predictions: list, graph_dst: str) -> None:
 ```
 Its result is shown as belows:
-
+![ex_screenshot](./brief_result.png)
 
 
 #### Example
