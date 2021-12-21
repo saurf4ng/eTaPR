@@ -14,19 +14,16 @@ For this reason, the existing metrics, including TaPR overrate a detection metho
 So, I improve TaPR and propose 'enhanced Time-series aware Precision and Recall (eTaPR).'
 You can find the details of problem and eTaPR in the paper to be announced at ACM SAC '22. (I'll give you a link to my paper.)
 
-This repository includes: //
-(1) Source codes in the directory, 'eTaPR_pkg'
-
-(2) A wheel package: eTaPR-21.12.1-py3-none-any.whl
-
-(3) Sample data in the directory, 'Data'
-
+This repository includes:  
+(1) Source codes in the directory, 'eTaPR_pkg'  
+(2) A wheel package: eTaPR-21.12.1-py3-none-any.whl  
+(3) Sample data in the directory, 'Data'  
 (4) Example jupyter code in the file, 'test_comparison.ipynb'
 
 
-My script is developed on Python3.8.3.
-
+My script is developed on Python3.8.3.  
 You need the following packages: numpy, pandas, math, argparse, time, datetime, pathlib, copy, and open-cv.
+
 
 ## Install with a wheel file
 
