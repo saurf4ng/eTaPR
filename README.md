@@ -5,7 +5,7 @@ An anomaly coincides with a 'time range' in time-series data because an anomalou
 The data in this period would have the same pattern.
 However, most conventional accuracy metrics overlook this point of view mentioned above.
 For this reason, we propose a novel metric, TaPR.
-* TaPR paper: https://doi.org/10.1145/3357384.3358118
+* TaPR paper: (Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim, and Hyoung Chun Kim. 2019. Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM '19). Association for Computing Machinery, New York, NY, USA, 2241–2244.){https://doi.org/10.1145/3357384.3358118}
 * TaPR git: https://github.com/saurf4ng/TaPR
 
 However, our TaPR has the problem of overrating inaccurate evaluation cases.
@@ -13,6 +13,8 @@ Remark that existing metrics(ref1, ref2, ref3) also suffer from this problem.
 For this reason, the existing metrics, including TaPR overrate a detection method.
 So, I improve TaPR and propose 'enhanced Time-series aware Precision and Recall (eTaPR).'
 You can find the details of problem and eTaPR in the paper to be announced at ACM SAC '22. (I'll give you a link to my paper.)
+
+This repository includes
 
 
 This script is developed on Python3.8.3.
