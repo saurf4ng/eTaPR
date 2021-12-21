@@ -17,7 +17,7 @@ You can find the details of problem and eTaPR in the paper to be announced at AC
 This repository includes:  
 (1) Source codes in the directory, 'eTaPR_pkg'  
 (2) A wheel package: eTaPR-21.12.1-py3-none-any.whl  
-(3) Sample data in the directory, 'Data'  
+(3) Sample data in the directory, 'Sample_Data'  
 (4) Example jupyter code in the file, 'test_comparison.ipynb'
 
 
