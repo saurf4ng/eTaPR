@@ -225,3 +225,24 @@ The result of above script is as belows:
 0.535329416677799 0.6375
 ```
 
+## Citation
+
+If you publish your works that use eTaPR, please cite the sources below:
+'''
+@inproceedings{10.1145/3477314.3507024,
+author = {Hwang, Won-Seok and Yun, Jeong-Han and Kim, Jonguk and Min, Byung Gil},
+title = {"Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detections?"},
+year = {2022},
+isbn = {9781450387132},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3477314.3507024},
+doi = {10.1145/3477314.3507024},
+booktitle = {Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing},
+pages = {403–412},
+numpages = {10},
+keywords = {accuracy metric, anomaly detection, precision, recall, time-series},
+location = {Virtual Event},
+series = {SAC '22}
+}
+'''
