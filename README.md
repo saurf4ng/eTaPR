@@ -8,15 +8,14 @@ For this reason, we propose a novel metric, TaPR.
 * TaPR paper: https://doi.org/10.1145/3357384.3358118
 * TaPR git: https://github.com/saurf4ng/TaPR
 
-However, our TaPR has the problem of overrating inaccurate evaluation cases.
+However, our TaPR sometimes overrates detection results.
 Remark that existing metrics([point-adjust](https://dl.acm.org/doi/abs/10.1145/3178876.3185996) and [TSAD](https://arxiv.org/abs/1803.03639)) also suffer from this problem.
-For this reason, the existing metrics, including TaPR overrate a detection method.
-So, I improve TaPR and propose 'enhanced Time-series aware Precision and Recall (eTaPR).'
-You can find the details of problem and eTaPR in the paper to be announced at ACM SAC '22. (I'll give you a link to my paper.)
+So, I propose 'enhanced Time-series aware Precision and Recall ([eTaPR](https://dl.acm.org/doi/10.1145/3477314.3507024)).'
+You can find the details of problem and eTaPR in the paper published at [ACM SAC '22](https://dl.acm.org/doi/10.1145/3477314.3507024).
 
 This repository includes:  
 (1) Source codes in the directory, 'eTaPR_pkg'  
-(2) A wheel package: eTaPR-21.12.1-py3-none-any.whl  
+(2) A wheel package: eTaPR-22.5.33-py3-none-any.whl  
 (3) Sample data in the directory, 'Sample_Data'  
 (4) Example jupyter code in the file, 'examples.ipynb'
 
