@@ -228,7 +228,7 @@ The result of above script is as belows:
 ## Citation
 
 If you publish your works that use eTaPR, please cite the sources below:
-'''
+```
 @inproceedings{10.1145/3477314.3507024,
 author = {Hwang, Won-Seok and Yun, Jeong-Han and Kim, Jonguk and Min, Byung Gil},
 title = {"Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detections?"},
@@ -245,4 +245,4 @@ keywords = {accuracy metric, anomaly detection, precision, recall, time-series},
 location = {Virtual Event},
 series = {SAC '22}
 }
-'''
+```
