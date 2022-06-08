@@ -38,3 +38,13 @@ class Range:
             return -1
         else:
             return 1
+
+def stream_2_ranges(self, prediction_stream: list) -> list:
+    result = []
+    for i in range(len(prediction_stream)-1):
+        start_time = 0
+        if prediction_stream[i] == 0 and prediction_stream[i+1] == 1:
+            start_time = i+1
+        elif prediction_stream[i] == 1 and prediction_stream[i+1] == 0:
+            result.append(Range(start_time, i, ''))
+    return result
