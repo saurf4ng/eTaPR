@@ -208,6 +208,10 @@ class eTaPR(tapr.TaPR):
 
 
 def evaluate_w_ranges(anomalies: list, predictions: list, theta_p: float, theta_r: float, delta: float = 0.0) -> dict:
+    assert(0.0 <= theta_p <= 1.0)
+    assert(0.0 <= theta_r <= 1.0)
+    assert(0.0 <= delta <= 1.0)
+    
     ev = eTaPR(theta_p, theta_r, delta)
     ev.set(anomalies, predictions)
 
@@ -263,6 +267,10 @@ def evaluate_w_ranges(anomalies: list, predictions: list, theta_p: float, theta_
 
 
 def evaluate_w_streams(anomalies: list, predictions: list, theta_p = 0.7, theta_r: float = 0.1, delta: float = 0.0) -> dict:
+    assert(0.0 <= theta_p <= 1.0)
+    assert(0.0 <= theta_r <= 1.0)
+    assert(0.0 <= delta <= 1.0)
+
     anomalous_ranges = File_IO.load_stream_2_range(anomalies, 0, 1, True)
     predicted_ranges = File_IO.load_stream_2_range(predictions, 0, 1, True)
 
@@ -274,6 +282,10 @@ def evaluate_w_streams(anomalies: list, predictions: list, theta_p = 0.7, theta_
 
 
 def evaluate_w_files(anomaly_file: str, prediction_file: str, file_type: str, theta_p: float, theta_r: float, delta: float = 0.0) -> dict:
+    assert(0.0 <= theta_p <= 1.0)
+    assert(0.0 <= theta_r <= 1.0)
+    assert(0.0 <= delta <= 1.0)
+
     anomalies = File_IO.load_file(anomaly_file, file_type)
     predictions = File_IO.load_file(prediction_file, file_type)
 
@@ -337,9 +349,6 @@ if __name__ == '__main__':
     if arguments.graph is not None:
         graph = arguments.graph
 
-    assert(0.0 <= theta_p <= 1.0)
-    assert(0.0 <= theta_r <= 1.0)
-    assert(0.0 <= delta <= 1.0)
     # assert(isinstance(delta, int))
     assert(graph == 'screen' or graph == 'file' or graph == 'none' or graph == 'all')
 
